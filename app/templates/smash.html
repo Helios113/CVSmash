@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Smash
+{% endblock %}
+
+{% block content %}
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <nav class="nav nav-pills nav-fill" style = "width: 90%; margin: auto;">
+                {{ form.smash(class="nav-item nav-link", style = "background-color:green; color: white; font-size: 30px;  border: none;") }}
+                {{ form.pas(class="nav-item nav-link", style = "background-color:red; color: white; font-size: 30px;  border: none") }}
+                <!--<a class="nav-item nav-link" href="#" style = "background-color:red; color: white;"><h2>Pass</h2></a>-->
+            </nav>
+            <article class="text-center">
+                <img class="article-img" src="{{ url_for('static', filename=img.content) }}">
+            </article>
+        </form>
+
+{% endblock %}

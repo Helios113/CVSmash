@@ -1,0 +1,138 @@
+/*body
+{
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+/* Style the navigation menu */
+/*
+.navbar {
+  margin: auto;
+  width: 25%;
+  overflow: auto;
+}
+
+/* Navigation links */
+/*
+.navbar a {
+  float: left;
+  padding: 12px 0px;
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  width: 50%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  /* If you want the text to be centered *//*
+}
+/* Add a background color on mouse-over *//*
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Style the current/active link *//*
+.navbar a.left {
+    border-radius: 3vw 0px 0px 3vw;
+}
+.navbar a.right {
+    border-radius: 0px 3vw 3vw 0px;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other *//*
+@media screen and (max-width: 500px) {
+
+  .navbar {
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+  }
+
+}
+
+
+
+/* Full-width input fields *//*
+input[type=text], input[type=password] {
+  width: 97%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons *//*
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: auto;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button *//*
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width *//*
+.cancelbtn, .lgnbtn {
+  float: left;
+  width: 50%;
+}
+.signupbtn {
+  padding: 14px 0px;
+  float: left;
+  width: 100%;
+}
+
+/* Add padding to container elements *//*
+.container {
+  padding: 16px;
+}
+.cntr{
+    margin: auto;
+    width: 50%;
+}
+/* Clear floats *//*
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens *//*
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+*/
+
+
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+.justify-content-center {
+    margin-bottom:20px;
+}
+.alert {
+    margin: auto;
+}
